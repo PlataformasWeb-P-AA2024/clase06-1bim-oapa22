@@ -9,6 +9,7 @@ from configuracion import engine
 Session = sessionmaker(bind=engine)
 session = Session()
 
+#backslash es para que pase a la siguiente linea
 # se crea un objetos de tipo Docente
 docente1 = Docente(nombre="Tony", apellido="García", \
         ciudad="Loja")
