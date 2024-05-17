@@ -17,6 +17,7 @@ miSaludo2 = Saludo()
 miSaludo2.mensaje = "Buenas tardes"
 miSaludo2.tipo = "formal"
 
+#la clase saludo tiene variables, por eso podemos modificarla como si fuera un objeto
 
 # se agrega el objeto miSaludo
 # a la entidad Saludo a la sesión

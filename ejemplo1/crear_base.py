@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine
+#from sqlalchemy import create_engine
 
 # se genera en enlace al gestor de base de
 # datos
@@ -13,7 +13,7 @@ Base = declarative_base()
 
 
 from sqlalchemy import Column, Integer, String
-
+#public class Saludo extends Base
 class Saludo(Base):
     __tablename__ = 'saludos'
 
